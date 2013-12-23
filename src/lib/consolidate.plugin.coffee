@@ -38,15 +38,16 @@ module.exports = (BasePlugin) ->
       # Prepare
       super
 
-      # Require the CSS Minifier
+      # Require Consolidate.js
       @consolidate = require('consolidate')
 
       # Chain
       @
 
+    # Called per document, for each extension conversion.
     render: (opts, next) ->
       # Prepare.
-      {inExtension, templateData, file, content} = opts
+      {inExtension, templateData, content} = opts
       config = @getConfig()
 
       # Ensure we are to act with the given template engine.

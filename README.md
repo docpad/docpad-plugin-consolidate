@@ -41,19 +41,20 @@ npm install --save underscore
 ## Configure
 
 It is possible to toggle which [supported template engines](https://github.com/visionmedia/consolidate.js/#supported-template-engines)
-are rendered with [Consolidate.js](http://github.com/visionmedia/consolidate.js/),
+are rendered using [Consolidate.js](http://github.com/visionmedia/consolidate.js/),
 by editing your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
 plugins:
   consolidate:
     atpl: true
-    dust: true
     dot: true
+    dust: true
     eco: true
     ect: true
     ejs: true
     haml: true
+    'haml-coffee': true
     handlebars: true
     hogan: true
     jade: true
@@ -62,7 +63,9 @@ plugins:
     just: true
     liquor: true
     lodash: true
+    mote: true
     mustache: true
+    nunjucks: true
     qejs: true
     ractive: true
     swig: true
@@ -70,6 +73,7 @@ plugins:
     toffee: true
     underscore: true
     walrus: true
+    whiskers: true
 ```
 
 

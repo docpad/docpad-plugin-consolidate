@@ -5,41 +5,18 @@ module.exports = (BasePlugin) ->
     # Name
     name: 'consolidate'
 
-    # Configuration
-    config:
-      # Enable all available template engines by default.
-      atpl: true
-      dust: true
-      dot: true
-      eco: true
-      ect: true
-      ejs: true
-      haml: true
-      "haml-coffee": true
-      handlebars: true
-      hogan: true
-      jade: true
-      jazz: true
-      jqtpl: true
-      just: true
-      liquor: true
-      lodash: true
-      mustache: true
-      qejs: true
-      ractive: true
-      swig: true
-      templayed: true
-      toffee: true
-      underscore: true
-      walrus: true
-
     # Constructor: true
     constructor: ->
+      # Load Consolidate.js
+      @consolidate = require('consolidate')
+
+      # Build the config based on what template engines Consolidate has.
+      for engine in Object.keys(@consolidate) when engine isnt 'clearCache'
+        # Enable the template engine in the plugin configuration.
+        @config[engine] = true
+
       # Prepare
       super
-
-      # Require Consolidate.js
-      @consolidate = require('consolidate')
 
       # Chain
       @

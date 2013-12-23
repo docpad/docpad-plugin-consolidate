@@ -1,4 +1,4 @@
-# [Consolidate.js](http://github.com/visionmedia/consolidate.js/) Plugin for [DocPad](https://docpad.org)
+# [Template Engine Consolidation](http://github.com/visionmedia/consolidate.js/) for [DocPad](https://docpad.org)
 
 <!-- BADGES/ -->
 
@@ -12,7 +12,7 @@
 
 
 Adds support for a [number of template engines](https://github.com/visionmedia/consolidate.js/#supported-template-engines)
-to [DocPad](https://docpad.org).
+to [DocPad](https://docpad.org), using [Consolidate.js](http://github.com/visionmedia/consolidate.js).
 
 **Convention:**
 ```

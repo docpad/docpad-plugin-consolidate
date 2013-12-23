@@ -1,0 +1,5 @@
+---
+name: HAML-Coffee
+---
+%h1= @site.title
+%p= @document.name

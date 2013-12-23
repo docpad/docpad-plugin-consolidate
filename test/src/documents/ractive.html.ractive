@@ -1,0 +1,5 @@
+---
+name: Ractive
+---
+<h1>{{#site}}{{title}}{{/site}}</h1>
+<p>{{#document}}{{name}}{{/document}}</p>

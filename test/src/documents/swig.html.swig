@@ -1,0 +1,5 @@
+---
+name: Swig
+---
+<h1>{{site.title}}</h1>
+<p>Using {{document.name}}</p>

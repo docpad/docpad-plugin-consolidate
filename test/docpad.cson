@@ -1,0 +1,8 @@
+templateData:
+  site:
+    title: 'Template Engine Consolidation Test'
+
+plugins:
+  consolidate:
+    # Ignore rendering with the Toffee template engine.
+    toffee: false

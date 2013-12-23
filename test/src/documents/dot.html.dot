@@ -1,0 +1,5 @@
+---
+name: Dot
+---
+<h1>{{=it.site.title}}</h1>
+<p>Using {{=it.document.name}}</p>

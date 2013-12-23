@@ -49,7 +49,9 @@ module.exports = (BasePlugin) ->
       {inExtension, templateData, file, content} = opts
       config = @getConfig()
 
+      # Ensure we are to act with the given template engine.
       if config[inExtension] or false
+        # Render using the given template engine.
         @consolidate[inExtension].render content, templateData, (err, output) ->
           return next(err) if err
           opts.content = output

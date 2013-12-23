@@ -14,7 +14,7 @@
 Adds support for a [number of template engines](https://github.com/visionmedia/consolidate.js/#supported-template-engines)
 to [DocPad](https://docpad.org).
 
-Convention:
+**Convention:**
 ```
 .anything.(atpl|dust|eco|ect|ejs|haml|haml-coffee|handlebars|hogan|jade|jazz|jqtpl|just|liquor|lodash|mustache|qejs|ractive|swig|templayed|toffee|underscore|walrus|whiskers)
 ```
@@ -22,12 +22,12 @@ Convention:
 
 ## Install
 
-1. Install the plugin:
+1. Install the `docpad-plugin-consolidate` plugin:
 ``` bash
 docpad install consolidate
 ```
 
-2. Install the library for the desired template engine:
+2. Install the library for the [desired template engine](https://github.com/visionmedia/consolidate.js/#supported-template-engines):
 ``` bash
 npm install --save underscore
 ```
@@ -41,7 +41,8 @@ npm install --save underscore
 ## Configure
 
 It is possible to toggle which [supported template engines](https://github.com/visionmedia/consolidate.js/#supported-template-engines)
-are rendered by Consolidate.js, by editing your [DocPad configuration file](http://docpad.org/docs/config):
+are rendered with [Consolidate.js](http://github.com/visionmedia/consolidate.js/),
+by editing your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
 plugins:
@@ -75,7 +76,7 @@ plugins:
 <!-- HISTORY/ -->
 
 ## History
-[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-sass/blob/master/HISTORY.md#files)
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/HISTORY.md#files)
 
 <!-- /HISTORY -->
 
@@ -84,7 +85,7 @@ plugins:
 
 ## Contribute
 
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-sass/blob/master/CONTRIBUTING.md#files)
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files)
 
 <!-- /CONTRIBUTE -->
 
@@ -105,7 +106,7 @@ These amazing people have contributed code to this project:
 
 - Rob Loach (https://github.com/robloach) - [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
 
-[Become a contributor!](https://github.com/docpad/docpad-plugin-sass/blob/master/CONTRIBUTING.md#files)
+[Become a contributor!](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

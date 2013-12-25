@@ -1,7 +1,7 @@
 {
   "title": "Consolidate.js Plugin for DocPad",
   "name": "docpad-plugin-consolidate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Template engine consolidation plugin for DocPad.",
   "license": "MIT",
   "homepage": "http://github.com/robloach/docpad-plugin-consolidate",

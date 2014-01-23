@@ -4,8 +4,7 @@
 
 [![Build Status](http://img.shields.io/travis-ci/RobLoach/docpad-plugin-consolidate.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-consolidate "Check this project's build status on TravisCI")
 [![NPM version](http://badge.fury.io/js/docpad-plugin-consolidate.png)](https://npmjs.org/package/docpad-plugin-consolidate "View this project on NPM")
-[![Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate)
-[![Development Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate/dev-status.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate#info=devDependencies)<br/>
+[![Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate)<br/>
 [![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
 [![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
 

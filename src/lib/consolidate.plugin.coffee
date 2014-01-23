@@ -5,7 +5,7 @@ module.exports = (BasePlugin) ->
     # Name
     name: 'consolidate'
 
-    # Constructor: true
+    # Constructor
     constructor: ->
       # Load Consolidate.js
       @consolidate = require('consolidate')
@@ -28,7 +28,7 @@ module.exports = (BasePlugin) ->
       config = @getConfig()
 
       # Ensure we are to act with the given template engine.
-      if config[inExtension] or false
+      if config[inExtension]? and config[inExtension] isnt false
         # Render using the given template engine.
         @consolidate[inExtension].render content, templateData, (err, output) ->
           return next(err) if err

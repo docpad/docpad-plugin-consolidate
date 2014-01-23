@@ -2,11 +2,12 @@
 
 <!-- BADGES/ -->
 
-[![Build Status](https://secure.travis-ci.org/RobLoach/docpad-plugin-consolidate.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-consolidate "Check this project's build status on TravisCI")
-[![NPM version](https://badge.fury.io/js/docpad-plugin-consolidate.png)](http://badge.fury.io/js/docpad-plugin-consolidate "View this project on NPM")
-[![Gittip button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Support this project using Gittip")
-[![Flattr button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Support this project using Flattr")
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RobLoach/docpad-plugin-consolidate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Build Status](http://img.shields.io/travis-ci/RobLoach/docpad-plugin-consolidate.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-consolidate "Check this project's build status on TravisCI")
+[![NPM version](http://badge.fury.io/js/docpad-plugin-consolidate.png)](https://npmjs.org/package/docpad-plugin-consolidate "View this project on NPM")
+[![Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate)
+[![Development Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate/dev-status.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate#info=devDependencies)<br/>
+[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
 
 <!-- /BADGES -->
 
@@ -102,13 +103,20 @@ plugins:
 
 These amazing people are maintaining this project:
 
-- Rob Loach (https://github.com/robloach)
+- Rob Loach (http://robloach.net)
+
+### Sponsors
+
+No sponsors yet! Will you be the first?
+
+[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
 
 ### Contributors
 
 These amazing people have contributed code to this project:
 
-- Rob Loach (https://github.com/robloach) - [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
+- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files)
 
@@ -124,3 +132,5 @@ Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissi
 Copyright &copy; Rob Loach (http://robloach.net)
 
 <!-- /LICENSE -->
+
+

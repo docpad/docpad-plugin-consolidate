@@ -102,7 +102,7 @@ plugins:
 
 These amazing people are maintaining this project:
 
-- Rob Loach (http://robloach.net)
+- Rob Loach (http://github.com/RobLoach)
 
 ### Sponsors
 
@@ -128,7 +128,7 @@ These amazing people have contributed code to this project:
 
 Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT license](http://creativecommons.org/licenses/MIT/)
 
-Copyright &copy; Rob Loach (http://robloach.net)
+Copyright &copy; Rob Loach (http://github.com/RobLoach)
 
 <!-- /LICENSE -->
 

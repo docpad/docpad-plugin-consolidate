@@ -20,20 +20,25 @@ to [DocPad](https://docpad.org), using [Consolidate.js](http://github.com/vision
 ```
 
 
+<!-- INSTALL/ -->
+
 ## Install
 
-1. Install the `docpad-plugin-consolidate` plugin:
+### [Node](http://nodejs.org/)
+- Use: `require('docpad-plugin-consolidate')`
+- Install: `npm install --save docpad-plugin-consolidate`
 
-	``` bash
-	docpad install consolidate
-	```
+<!-- /INSTALL -->
 
-2. Install the library for the [desired template engine](https://github.com/visionmedia/consolidate.js/#supported-template-engines):
+
+## Usage
+
+1. Install the library for the [desired template engine](https://github.com/visionmedia/consolidate.js/#supported-template-engines):
 	``` bash
 	npm install --save ejs
 	```
 
-3. Use the template engine in a file such as *src/documents/test.html.ejs*:
+2. Use the template engine in a file such as *src/documents/test.html.ejs*:
 	``` html
 	---
 	title: EJS
@@ -119,7 +124,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
+- [Rob Loach](http://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files)
 
@@ -135,3 +140,5 @@ Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissi
 Copyright &copy; Rob Loach (http://github.com/RobLoach)
 
 <!-- /LICENSE -->
+
+

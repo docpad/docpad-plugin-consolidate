@@ -23,19 +23,23 @@ to [DocPad](https://docpad.org), using [Consolidate.js](http://github.com/vision
 ## Install
 
 1. Install the `docpad-plugin-consolidate` plugin:
-``` bash
-docpad install consolidate
-```
+
+	``` bash
+	docpad install consolidate
+	```
 
 2. Install the library for the [desired template engine](https://github.com/visionmedia/consolidate.js/#supported-template-engines):
-``` bash
-npm install --save underscore
-```
+	``` bash
+	npm install --save ejs
+	```
 
-3. Use the template engine in a file such as *src/documents/test.html.underscore*:
-``` html
-<p>Welcome to <%- site.title %></p>
-```
+3. Use the template engine in a file such as *src/documents/test.html.ejs*:
+	``` html
+	---
+	title: EJS
+	---
+	<p>This is <%= document.title %></p>
+	```
 
 
 ## Configure
@@ -46,34 +50,34 @@ by editing your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
 plugins:
-  consolidate:
-    atpl: true
-    dot: true
-    dust: true
-    eco: true
-    ect: true
-    ejs: true
-    haml: true
-    'haml-coffee': true
-    handlebars: true
-    hogan: true
-    jade: true
-    jazz: true
-    jqtpl: true
-    just: true
-    liquor: true
-    lodash: true
-    mote: true
-    mustache: true
-    nunjucks: true
-    qejs: true
-    ractive: true
-    swig: true
-    templayed: true
-    toffee: true
-    underscore: true
-    walrus: true
-    whiskers: true
+	consolidate:
+		atpl: true
+		dot: true
+		dust: true
+		eco: true
+		ect: true
+		ejs: true
+		haml: true
+		'haml-coffee': true
+		handlebars: true
+		hogan: true
+		jade: true
+		jazz: true
+		jqtpl: true
+		just: true
+		liquor: true
+		lodash: true
+		mote: true
+		mustache: true
+		nunjucks: true
+		qejs: true
+		ractive: true
+		swig: true
+		templayed: true
+		toffee: true
+		underscore: true
+		walrus: true
+		whiskers: true
 ```
 
 
@@ -131,5 +135,3 @@ Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissi
 Copyright &copy; Rob Loach (http://github.com/RobLoach)
 
 <!-- /LICENSE -->
-
-

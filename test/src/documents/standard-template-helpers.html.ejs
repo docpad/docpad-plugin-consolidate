@@ -1,0 +1,18 @@
+---
+title: Standard Template Helpers
+---
+
+<h1><%= document.title %></h1>
+
+<h2>getEnvironment</h2>
+<%= getEnvironment() %>
+
+<h2>Environments</h2>
+<ul>
+<% getEnvironments().forEach(function(env) { %>
+	<li><%= env %></li>
+<% }) %>
+</ul>
+
+<h2>getPath</h2>
+<%= getPath('example.html', 'subfolder') %>

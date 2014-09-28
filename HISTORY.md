@@ -1,5 +1,8 @@
 # History
 
+- v2.1.1 July 30th, 2014
+	- Updated dependencies
+
 - v2.1.0 February 12th, 2014
 	- Updated dependencies
 		- coffee-script 1.6.3 to 1.7.1

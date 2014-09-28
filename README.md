@@ -24,9 +24,9 @@ to [DocPad](https://docpad.org), using [Consolidate.js](http://github.com/vision
 
 ## Install
 
-### [Node](http://nodejs.org/)
-- Use: `require('docpad-plugin-consolidate')`
-- Install: `npm install --save docpad-plugin-consolidate`
+``` bash
+docpad install consolidate
+```
 
 <!-- /INSTALL -->
 

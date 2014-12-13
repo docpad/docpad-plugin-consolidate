@@ -4,5 +4,8 @@ templateData:
 
 plugins:
 	consolidate:
-		# Ignore rendering with the Toffee template engine.
+		# Ignore rendering of problematic template engines.
 		toffee: false
+		jqtpl: false
+		nunjucks: false
+		ractive: false

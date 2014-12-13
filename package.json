@@ -1,7 +1,7 @@
 {
   "title": "Consolidate.js Plugin for DocPad",
   "name": "docpad-plugin-consolidate",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Template engine consolidation plugin for DocPad.",
   "license": {
     "type": "MIT"
@@ -18,7 +18,8 @@
     "david": true,
     "daviddev": false,
     "gittip": "RobLoach",
-    "flattr": "2257574/RobLoach"
+    "flattr": "2257574/RobLoach",
+    "npmdownloads": true
   },
   "author": "Rob Loach (http://github.com/RobLoach)",
   "maintainers": [
@@ -82,6 +83,7 @@
     "docpad": "6"
   },
   "contributors": [
+    "PxlBuzzard (https://github.com/PxlBuzzard)",
     "Rob Loach (http://github.com/RobLoach)"
   ],
   "cakeConfiguration": {

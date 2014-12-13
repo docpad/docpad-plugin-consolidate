@@ -1,8 +1,9 @@
 # History
 
-- v2.2.0 December 13th, 2014
+- v2.1.1 December 13th, 2014
+	- Removed cyclic
 	- Updated dependencies
-		- coffee-script ~1.7.1 to ~1.8.0
+		- `coffee-script` ~1.7.1 to ~1.8.0
 
 - v2.1.0 February 12th, 2014
 	- Updated dependencies

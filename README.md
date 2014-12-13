@@ -2,11 +2,12 @@
 
 <!-- BADGES/ -->
 
-[![Build Status](http://img.shields.io/travis-ci/RobLoach/docpad-plugin-consolidate.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-consolidate "Check this project's build status on TravisCI")
-[![NPM version](http://badge.fury.io/js/docpad-plugin-consolidate.png)](https://npmjs.org/package/docpad-plugin-consolidate "View this project on NPM")
-[![Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-consolidate.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-consolidate)<br/>
-[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
-[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
+[![Build Status](https://img.shields.io/travis/RobLoach/docpad-plugin-consolidate/master.svg)](http://travis-ci.org/RobLoach/docpad-plugin-consolidate "Check this project's build status on TravisCI")
+[![NPM version](https://img.shields.io/npm/v/docpad-plugin-consolidate.svg)](https://npmjs.org/package/docpad-plugin-consolidate "View this project on NPM")
+[![NPM downloads](https://img.shields.io/npm/dm/docpad-plugin-consolidate.svg)](https://npmjs.org/package/docpad-plugin-consolidate "View this project on NPM")
+[![Dependency Status](https://img.shields.io/david/true.svg)](https://david-dm.org/true)<br/>
+[![Gratipay donate button](https://img.shields.io/gratipay/RobLoach.svg)](https://www.gratipay.com/RobLoach/ "Donate weekly to this project using Gratipay")
+[![Flattr donate button](https://img.shields.io/badge/flattr-donate-yellow.svg)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
 
 <!-- /BADGES -->
 
@@ -24,9 +25,9 @@ to [DocPad](https://docpad.org), using [Consolidate.js](http://github.com/vision
 
 ## Install
 
-### [Node](http://nodejs.org/)
-- Use: `require('docpad-plugin-consolidate')`
-- Install: `npm install --save docpad-plugin-consolidate`
+``` bash
+docpad install consolidate
+```
 
 <!-- /INSTALL -->
 
@@ -117,13 +118,14 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
-[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
+[![Gratipay donate button](https://img.shields.io/gratipay/RobLoach.svg)](https://www.gratipay.com/RobLoach/ "Donate weekly to this project using Gratipay")
+[![Flattr donate button](https://img.shields.io/badge/flattr-donate-yellow.svg)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
 
 ### Contributors
 
 These amazing people have contributed code to this project:
 
+- [PxlBuzzard](https://github.com/PxlBuzzard) — [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=PxlBuzzard)
 - [Rob Loach](http://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-consolidate/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files)

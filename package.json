@@ -37,13 +37,13 @@
     "docpad": "6.x"
   },
   "dependencies": {
-    "consolidate": "~0.10.0"
+    "consolidate": "~0.12.1"
   },
   "devDependencies": {
-    "coffee-script": "~1.8.0",
-    "joe": "~1.5.0",
-    "docpad": "~6.69",
-    "projectz": "~0.3.17",
+    "coffee-script": "~1.9.2",
+    "joe": "~1.6.0",
+    "docpad": "~6.78.1",
+    "projectz": "~0.5.0",
     "jade": "*",
     "ejs": "*",
     "eco": "*",
@@ -77,7 +77,8 @@
     "lib": "./out/lib"
   },
   "scripts": {
-    "test": "node ./out/test/consolidate.test.js"
+    "test": "node ./out/test/consolidate.test.js",
+    "cake": "cake"
   },
   "peerDependencies": {
     "docpad": "6"

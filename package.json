@@ -1,7 +1,7 @@
 {
   "title": "Consolidate.js Plugin for DocPad",
   "name": "docpad-plugin-consolidate",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Template engine consolidation plugin for DocPad.",
   "homepage": "https://github.com/docpad/docpad-plugin-consolidate",
   "license": "MIT",
@@ -34,14 +34,14 @@
       "wishlistURL": "https://bevry.me/wishlist"
     }
   },
-  "author": "2018+ Benjamin Lupton <b@lupton.cc> (http://github.com/balupton), 2013+ Rob Loach (http://github.com/RobLoach)",
+  "author": "2018+ Benjamin Lupton <b@lupton.cc> (https://github.com/balupton), 2013+ Rob Loach <robloach@gmail.com> (http://robloach.net)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (http://github.com/balupton)",
-    "Rob Loach (http://github.com/RobLoach)"
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Rob Loach <robloach@gmail.com> (http://robloach.net)"
   ],
   "contributors": [
-    "PxlBuzzard (https://github.com/PxlBuzzard)",
-    "Rob Loach (http://github.com/RobLoach)"
+    "Rob Loach <robloach@gmail.com> (http://robloach.net)",
+    "Daniel Jost <daniel [at] danieljost.com> (http://danieljost.com)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-consolidate/issues"
@@ -51,7 +51,7 @@
     "url": "https://github.com/docpad/docpad-plugin-consolidate.git"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": ">=6"
   },
   "editions": [
     {
@@ -67,33 +67,17 @@
         "node": ">=6",
         "browsers": false
       }
-    },
-    {
-      "description": "esnext compiled for node.js >=0.12 with require for modules",
-      "directory": "edition:node:0.12",
-      "entry": "index.js",
-      "syntaxes": [
-        "javascript",
-        "require"
-      ],
-      "engines": {
-        "node": "0.12 || 4 || 6 || 8 || 10",
-        "browsers": false
-      }
     }
   ],
-  "main": "index.js",
+  "main": "source/index.js",
   "dependencies": {
     "consolidate": "~0.15.1",
-    "docpad-baseplugin": "^1.0.0",
-    "editions": "^2.0.0"
+    "docpad-baseplugin": "^1.0.3"
   },
   "devDependencies": {
     "atpl": "*",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "docpad": "^6.80.9",
-    "docpad-plugintester": "^1.0.0",
+    "docpad": "^6.82.4",
+    "docpad-plugintester": "^1.3.2",
     "dot": "*",
     "dust": "*",
     "dustjs-helpers": "*",
@@ -101,6 +85,7 @@
     "eco": "*",
     "ect": "*",
     "ejs": "*",
+    "eslint": "^5.6.1",
     "haml-coffee": "*",
     "hamljs": "*",
     "handlebars": "*",
@@ -120,17 +105,14 @@
     "templayed": "*",
     "toffee": "*",
     "underscore": "*",
+    "valid-directory": "^1.0.0",
     "walrus": "*"
   },
-  "peerDependencies": {
-    "docpad": "^6.68.1"
-  },
+  "optionalDependencies": {},
+  "peerDependencies": {},
   "scripts": {
-    "our:clean": "rm -Rf ./docs ./edition:* ./es2015 ./es5 ./out",
-    "our:compile": "npm run our:compile:edition",
-    "our:compile:edition": "npm run our:compile:edition:node",
-    "our:compile:edition:node": "npm run our:compile:edition:node:0.12",
-    "our:compile:edition:node:0.12": "env BABEL_ENV=edition:node:0.12 babel --out-dir ./edition:node:0.12 ./source",
+    "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out",
+    "our:compile": "echo no need for this project",
     "our:deploy": "echo no need for this project",
     "our:meta": "npm run our:meta:projectz",
     "our:meta:projectz": "projectz compile",
@@ -143,24 +125,9 @@
     "our:setup": "npm run our:setup:npm",
     "our:setup:npm": "npm install",
     "our:test": "npm run our:verify && npm test",
-    "our:verify": "npm run our:verify:coffeelint",
-    "our:verify:coffeelint": "coffeelint ./source",
+    "our:verify": "npm run our:verify:directory && npm run our:verify:eslint",
+    "our:verify:directory": "npx valid-directory",
+    "our:verify:eslint": "eslint --fix ./source",
     "test": "docpad-plugintester"
-  },
-  "babel": {
-    "env": {
-      "edition:node:0.12": {
-        "presets": [
-          [
-            "env",
-            {
-              "targets": {
-                "node": "0.12"
-              }
-            }
-          ]
-        ]
-      }
-    }
   }
 }

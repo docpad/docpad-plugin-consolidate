@@ -1,18 +1,12 @@
 sudo: false
 language: node_js
 node_js:
-- '0.8'
-- '0.10'
-- '0.12'
-- '4'
 - '6'
 - '8'
 - '10'
 matrix:
   fast_finish: true
-  allow_failures:
-  - node_js: '0.8'
-  - node_js: '0.10'
+  allow_failures: []
 cache:
   directories:
   - "$HOME/.npm"
@@ -26,4 +20,4 @@ after_success:
 notifications:
   email:
     recipients:
-      secure: BYh4YFXxLcwM5a36U+ifK4VGCtPCMdMbJ1itmUmlumfAnmOv/AAldXNb2PLHr3GzJdSW/yleVuy4XlqyUbG9F8wgc7EwqO1+LMPwnRq8WhuYv53OENe3a7tHP77U3G08Dbe488wSbD8TfYHLCPIwGqCu4rPE9uxEV9Vw01HTbqg=
+      secure: IShHQCWhHm6Lf2xxGnCZQBaGEFiYW65lD4+YP4Q8hDRDQ0xfucu2zojzQNDGQM1uBO6DDEgS2DFBSNU+11IV8jpGZLWpEib6WUDlnF0kopQ4e0bLqBlyjPVMJI15u7r6WLuG0fezRipFruchj5zBbybpsBOtcs0yhN4asBCWH/g=

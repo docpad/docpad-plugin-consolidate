@@ -7,11 +7,11 @@ const consolidate = require('consolidate')
 
 // Define Plugin
 class ConsolidatePlugin extends BasePlugin {
-	get name () {
+	get name() {
 		return 'consolidate'
 	}
 
-	get initialConfig () {
+	get initialConfig() {
 		// Build the config based on what template engines Consolidate has
 		const initialConfig = {}
 		Object.keys(consolidate).forEach(function (engine) {
@@ -24,7 +24,7 @@ class ConsolidatePlugin extends BasePlugin {
 	}
 
 	// Called per document, for each extension conversion
-	render (opts, next) {
+	render(opts, next) {
 		// Prepare
 		const { inExtension, templateData, content } = opts
 		const config = this.getConfig()
@@ -32,13 +32,15 @@ class ConsolidatePlugin extends BasePlugin {
 		// Ensure we are to act with the given template engine
 		if (config[inExtension] && config[inExtension] !== false) {
 			// Render using the given template engine
-			consolidate[inExtension].render(content, templateData, function (err, output) {
+			consolidate[inExtension].render(content, templateData, function (
+				err,
+				output
+			) {
 				if (err) return next(err)
 				opts.content = output
 				return next()
 			})
-		}
-		else {
+		} else {
 			return next()
 		}
 	}

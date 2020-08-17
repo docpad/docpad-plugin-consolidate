@@ -124,7 +124,7 @@
     "templayed": "*",
     "toffee": "*",
     "underscore": "*",
-    "valid-directory": "^2.8.0",
+    "valid-directory": "^3.0.0",
     "walrus": "*"
   },
   "scripts": {

@@ -4,8 +4,8 @@
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2018+ <a href="https://github.com/balupton">Benjamin Lupton</a></li>
-<li>Copyright &copy; 2013+ <a href="http://robloach.net">Rob Loach</a></li></ul>
+<ul><li>Copyright &copy; 2018+ <a href="https://balupton.com">Benjamin Lupton</a></li>
+<li>Copyright &copy; 2013+ <a href="https://robloach.net">Rob Loach</a></li></ul>
 
 and licensed under:
 

@@ -121,8 +121,8 @@ Install this DocPad plugin by entering <code>docpad install consolidate</code> i
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-consolidate">view contributions</a></li>
-<li><a href="http://robloach.net">Rob Loach</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-consolidate">view contributions</a></li>
+<li><a href="https://robloach.net">Rob Loach</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository docpad/docpad-plugin-consolidate">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -142,8 +142,9 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://danieljost.com">Daniel Jost</a></li>
-<li><a href="http://robloach.net">Rob Loach</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-consolidate">view contributions</a></li>
+<li><a href="https://github.com/PxlBuzzard">Daniel Jost</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=PxlBuzzard" title="View the GitHub contributions of Daniel Jost on repository docpad/docpad-plugin-consolidate">view contributions</a></li>
+<li><a href="https://robloach.net">Rob Loach</a> — <a href="https://github.com/docpad/docpad-plugin-consolidate/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository docpad/docpad-plugin-consolidate">view contributions</a></li></ul>
 
 <a href="https://github.com/docpad/docpad-plugin-consolidate/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
@@ -156,8 +157,8 @@ These amazing people have contributed code to this project:
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2018+ <a href="https://github.com/balupton">Benjamin Lupton</a></li>
-<li>Copyright &copy; 2013+ <a href="http://robloach.net">Rob Loach</a></li></ul>
+<ul><li>Copyright &copy; 2018+ <a href="https://balupton.com">Benjamin Lupton</a></li>
+<li>Copyright &copy; 2013+ <a href="https://robloach.net">Rob Loach</a></li></ul>
 
 and licensed under:
 

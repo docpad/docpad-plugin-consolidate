@@ -87,7 +87,7 @@
   "type": "commonjs",
   "main": "source/index.js",
   "dependencies": {
-    "consolidate": "~0.15.1",
+    "consolidate": "~0.16.0",
     "docpad-baseplugin": "^1.4.0"
   },
   "devDependencies": {

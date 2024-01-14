@@ -119,7 +119,7 @@
     "mote": "*",
     "mustache": "4.0.1",
     "nunjucks": "*",
-    "prettier": "^2.1.2",
+    "prettier": "^3.2.2",
     "projectz": "^2.17.0",
     "ractive": "*",
     "swig": "*",
